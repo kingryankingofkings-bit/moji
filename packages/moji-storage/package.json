@@ -1,0 +1,16 @@
+{
+  "name": "@moji/storage",
+  "version": "1.0.0",
+  "description": "Native storage bridge for Moji — SharedPreferences on Android, App Group UserDefaults on iOS",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "expo-modules-core": "^1.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

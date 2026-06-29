@@ -5,6 +5,7 @@
   "private": true,
   "workspaces": [
     "packages/shared",
+    "packages/moji-storage",
     "packages/mobile",
     "packages/web"
   ],
