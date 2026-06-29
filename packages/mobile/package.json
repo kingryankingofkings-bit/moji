@@ -1,0 +1,31 @@
+{
+  "name": "@moji/mobile",
+  "version": "1.0.0",
+  "description": "React Native emoji keyboard for iOS and Android",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build": "eas build",
+    "prebuild": "expo prebuild --clean",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.73.0",
+    "expo": "^50.0.0",
+    "expo-clipboard": "^5.0.0",
+    "expo-keyboard": "^12.0.0",
+    "@moji/shared": "workspace:*",
+    "react-native-reanimated": "^3.5.0",
+    "react-native-gesture-handler": "^2.14.0",
+    "lodash.debounce": "^4.0.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-native": "^0.72.0",
+    "typescript": "^5.0.0"
+  }
+}

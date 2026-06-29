@@ -1,0 +1,19 @@
+{
+  "name": "moji",
+  "version": "1.0.0",
+  "description": "Cross-platform custom emoji keyboard for Android, iOS, and desktop",
+  "private": true,
+  "workspaces": [
+    "packages/shared",
+    "packages/mobile",
+    "packages/web"
+  ],
+  "scripts": {
+    "dev": "concurrently \"yarn workspace @moji/web dev\" \"yarn workspace @moji/mobile start\"",
+    "build": "yarn workspaces foreach run build",
+    "test": "yarn workspaces foreach run test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
