@@ -19,20 +19,7 @@
     },
     "production": {
       "android": {
-        "buildType": "aab"
-      }
-    }
-  },
-  "submit": {
-    "production": {
-      "ios": {
-        "appleId": "kingryankingofkings@gmail.com",
-        "ascAppId": "",
-        "appleTeamId": ""
-      },
-      "android": {
-        "serviceAccountKeyPath": "./google-services.json",
-        "track": "internal"
+        "buildType": "app-bundle"
       }
     }
   }
