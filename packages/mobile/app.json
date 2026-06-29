@@ -30,7 +30,6 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-font",
       "./plugins/withAndroidIME",
       "./plugins/withIOSKeyboardExtension"
     ]
