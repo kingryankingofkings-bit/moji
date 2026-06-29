@@ -33,6 +33,12 @@ const getCategoryIcon = (category: EmojiCategory): string => {
     [EmojiCategory.OBJECTS]: '💡',
     [EmojiCategory.SYMBOLS]: '❤️',
     [EmojiCategory.FLAGS]: '🏳️',
+    [EmojiCategory.MEDIEVAL]: '⚔️',
+    [EmojiCategory.HERB]: '🌿',
+    [EmojiCategory.SCIFI]: '🛸',
+    [EmojiCategory.HORROR]: '💀',
+    [EmojiCategory.MUSIC]: '🎵',
+    [EmojiCategory.OCEAN]: '🌊',
   };
   return icons[category];
 };

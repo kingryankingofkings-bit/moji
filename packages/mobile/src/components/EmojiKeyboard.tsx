@@ -242,6 +242,12 @@ const CATEGORY_ICONS: Record<EmojiCategory, string> = {
   [EmojiCategory.OBJECTS]: '💡',
   [EmojiCategory.SYMBOLS]: '❤️',
   [EmojiCategory.FLAGS]: '🏳️',
+  [EmojiCategory.MEDIEVAL]: '⚔️',
+  [EmojiCategory.HERB]: '🌿',
+  [EmojiCategory.SCIFI]: '🛸',
+  [EmojiCategory.HORROR]: '💀',
+  [EmojiCategory.MUSIC]: '🎵',
+  [EmojiCategory.OCEAN]: '🌊',
 };
 
 const styles = StyleSheet.create({

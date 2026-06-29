@@ -18,7 +18,13 @@ export enum EmojiCategory {
   ACTIVITIES = 'Activities',
   OBJECTS = 'Objects',
   SYMBOLS = 'Symbols',
-  FLAGS = 'Flags'
+  FLAGS = 'Flags',
+  MEDIEVAL = 'Medieval & Fantasy',
+  HERB = '420',
+  SCIFI = 'Sci-Fi',
+  HORROR = 'Horror',
+  MUSIC = 'Music',
+  OCEAN = 'Ocean',
 }
 
 export interface EmojiWithSkinTone {
